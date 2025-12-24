@@ -1,0 +1,14 @@
+{
+  "name": "ag-ui-expert",
+  "version": "1.0.0",
+  "description": "Expert-level AG-UI protocol implementation for building real-time agent-user interfaces. Use when implementing SSE-based agent streaming, LangGraph-to-frontend integration, CopilotKit setup, bidirectional state sync with JSON Patch, human-in-the-loop patterns, or any agent UI requiring real-time event streaming.",
+  "author": {
+    "name": "Andaman Lekawat"
+  },
+  "repository": "https://github.com/YOUR_USERNAME/jarvis-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["ag-ui", "sse", "streaming", "langgraph", "copilotkit", "real-time", "agent-ui", "protocol"],
+  "skills": [
+    "./skills/ag-ui-expert"
+  ]
+}

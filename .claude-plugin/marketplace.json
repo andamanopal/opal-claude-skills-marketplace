@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jarvis-skills",
+  "version": "1.0.0",
+  "description": "Custom skills for Project Jarvis - AI-powered personal assistant with lifelog indexing, AG-UI protocol integration, and real-time voice interaction",
+  "owner": {
+    "name": "Andaman Lekawat",
+    "email": "your-email@example.com"
+  },
+  "plugins": [
+    {
+      "name": "ag-ui-expert",
+      "description": "Expert-level AG-UI protocol implementation for building real-time agent-user interfaces. Use when implementing SSE-based agent streaming, LangGraph-to-frontend integration, CopilotKit setup, bidirectional state sync with JSON Patch, human-in-the-loop patterns, or any agent UI requiring real-time event streaming.",
+      "source": "./plugins/ag-ui-expert",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["ag-ui", "sse", "streaming", "langgraph", "copilotkit", "real-time", "agent-ui"],
+      "author": {
+        "name": "Andaman Lekawat"
+      },
+      "strict": false
+    }
+  ]
+}
