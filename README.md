@@ -1,4 +1,4 @@
-# Jarvis Skills Marketplace
+# Opal's Claude Skills Marketplace
 
 Custom Claude Code plugins and skills for Project Jarvis - an AI-powered personal assistant with lifelog indexing and real-time voice interaction.
 
